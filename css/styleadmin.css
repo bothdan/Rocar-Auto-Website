@@ -1,0 +1,478 @@
+body {
+	background: #FFFFFF;
+	
+}
+a:link {
+color:blue;
+text-decoration:none;}    /* unvisited link */
+a:visited {color:blue;} /* visited link */
+a:hover {color:#AE0B13;}   /* mouse over link */
+a:active {color:blue;}  /* selected link */
+#legend{
+font-family: "Tahoma", "Lucida Grande", sans-serif;
+font-size: 14px;
+color:#AE0B13;
+font-weight:normal;
+}
+#cell{
+font-family: "Arial", sans-serif;
+font-size: 14px;
+color:#000000;
+min-width:100px;
+padding-left:5px;
+line-height:10px;
+}
+#divphoto {
+    position:relative;
+}
+#imgphoto {
+    position:absolute;
+    top:0;
+    _bottom:0;
+    margin:auto;
+}
+.imagephoto {
+    min-height:50px
+}
+#btn{
+font-family: "Arial", sans-serif;
+font-size: 14px;
+color:#FFFFFF;
+background: #FFAA55;
+font-weight:normal;
+margin:1px;
+min-height:30px;
+min-width:100px;
+border-radius: 4px;
+border:1px solid #000000;
+}
+#btn:hover{
+font-family: "Arial", sans-serif;
+font-size: 14px;
+color:#FFFFFF;
+background: #A5A5A5;
+font-weight:normal;
+margin:1px;
+min-height:30px;
+min-width:100px;
+border-radius: 4px;
+border:1px solid #000000;
+}
+#btnSave{
+font-family: "Arial", sans-serif;
+font-size: 14px;
+color:#FFFFFF;
+background: #00C750;
+font-weight:normal;
+margin:1px;
+min-height:30px;
+min-width:100px;
+border-radius: 4px;
+border:1px solid #000000;
+}
+#btnSave:hover{
+font-family: "Arial", sans-serif;
+font-size: 14px;
+color:#FFFFFF;
+background: #00AE47;
+font-weight:normal;
+margin:1px;
+min-height:30px;
+min-width:100px;
+border-radius: 4px;
+border:1px solid #000000;
+}
+#btnCancel{
+font-family: "Arial", sans-serif;
+font-size: 14px;
+color:#FFFFFF;
+background: #09AEC7;
+font-weight:normal;
+margin:1px;
+min-height:30px;
+min-width:100px;
+border-radius: 4px;
+border:1px solid #000000;
+}
+#btnCancel:hover{
+font-family: "Arial", sans-serif;
+font-size: 14px;
+color:#FFFFFF;
+background: #1091A7;
+font-weight:normal;
+margin:1px;
+min-height:30px;
+min-width:100px;
+border-radius: 4px;
+border:1px solid #000000;
+}
+#btnDel{
+font-family: "Arial", sans-serif;
+font-size: 14px;
+color:#FFFFFF;
+background: red;
+font-weight:normal;
+margin:1px;
+min-height:30px;
+min-width:100px;
+border-radius: 4px;
+border:1px solid #000000;
+}
+#btnDel:hover{
+font-family: "Arial", sans-serif;
+font-size: 14px;
+color:#FFFFFF;
+background: #AE0B13;
+font-weight:normal;
+margin:1px;
+min-height:30px;
+min-width:100px;
+border-radius: 4px;
+border:1px solid #000000;
+}
+fieldset{
+min-height:500px;
+min-width:960px;
+width:100%;
+}
+#div1
+{
+font-family: "Tahoma", "Lucida Grande", sans-serif;
+font-size: 36px;
+color:#AE0B13;
+font-weight:normal;
+background:#FFFFFF;
+width:99%;
+min-height:50px;
+margin:0px;
+vertical-align:text-middle;
+}
+#div2
+{
+font-family: "Tahoma", "Lucida Grande", sans-serif;
+font-size: 16px;
+color: #000000;
+font-weight:normal;
+background:#F4F9FD;
+width:100%;
+height:auto;
+padding:2px;
+margin:0px;
+vertical-align:text-middle;
+line-height:40px;
+display: inline-block;
+}
+#div3
+{
+_background:#F9FFE8;
+}
+#div3left
+{
+font-family: "Tahoma", "Lucida Grande", sans-serif;
+font-size: 16px;
+color: #000000;
+font-weight:normal;
+_background:#F9FFE8;
+_min-width:130px;
+_width:15%;
+
+padding:0px;
+margin:0px;
+vertical-align:text-middle;
+min-height:520px;
+min-width:140px;
+max-width:140px;
+float:left;
+display: inline-block;
+}
+#div3right
+{
+font-family: "Tahoma", "Lucida Grande", sans-serif;
+font-size: 16px;
+color: #000000;
+font-weight:normal;
+background:auto;
+min-width:440px;
+width:75%;
+padding:15px;
+margin:0px;
+vertical-align:text-middle;
+min-height:520px;
+
+float:rigth;
+display: inline-block;
+}
+#div4
+{
+font-family: "Tahoma", "Lucida Grande", sans-serif;
+font-size: 12px;
+color: #000000;
+font-weight:normal;
+background:#FFFFFF;
+width:100%;
+height:auto;
+padding:0px;
+margin:0px;
+vertical-align:text-middle;
+line-height:20px;
+display: inline-block;
+}
+#dl1{
+color:#000000;
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 15px;
+text-decoration:none;
+font-weight:bold;
+background:#D1D9FC;
+line-height:32px;
+padding:2px;
+min-width:140px;
+display: inline-block;
+}
+#dl2{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 14px;
+text-decoration:none;
+line-height:22px;
+padding:1px;
+min-width:140px;
+display: inline-block;
+}
+#displayinfo{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 15px;
+text-decoration:none;
+color:#000000;
+vertical-align:text-middle;
+}
+#roll{
+width:100px;
+vertical-align:middle;
+}
+#msgList{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+vertical-align:text-middle;
+line-height:22px;
+}
+#divmsg{
+background:#FFFFFF;
+}
+#divmsg:hover{
+_background:#F9FFE8;
+background:#EBEBEB;
+
+}
+#txt20{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 28px;
+}
+#divinfo1{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:2%;
+}
+#divinfo2{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:5%;
+max-width:30px;
+}
+#divinfo3{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:15%;
+max-width:30px;
+}
+#divinfo4{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:20%;
+}
+#divinfo5{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:40%;
+
+}
+#divinfo6{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:11%;
+
+}
+#divinfo2-1{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:8%;
+max-width:20px;
+}
+#divinfo3-1{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:8%;
+max-width:20px;
+}
+#divinfo4-1{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:12%;
+max-width:30px;
+}
+#divinfo5-1{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:12%;
+max-width:30px;
+}
+#divinfo6-1{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:10%;
+max-width:30px;
+}
+#divinfo7-1{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:17%;
+max-width:30px;
+}
+#divinfo8-1{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:10%;
+max-width:30px;
+}
+#divinfo9-1{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 12px;
+text-decoration:none;
+color:#000000;
+display: inline-block;
+line-height:26px;
+min-width:10%;
+max-width:30px;
+}
+#divCont{
+border-bottom-style:solid;
+border-width:1px;
+border-color:gray;
+}
+#spanMsg{
+font-weight:normal;
+
+}
+#divMSGblk{
+background:auto;
+color:black;
+display:inline-block;
+vertical-align:top;
+min-width:100px;
+min-height:120px;
+}
+#divMSGblk2{
+background:auto;
+color:black;
+display:inline-block;
+vertical-align:top;
+min-width:100px;
+min-height:20px;
+}
+#txtblue{
+font-family: "Arial", "Lucida Grande", sans-serif;
+font-size: 14px;
+color:#AE0B13;
+font-weight:normal;
+}
+#divBtn{
+display:inline-block;
+min-width:100px;
+min-height:30px;
+background:auto;
+
+}
+
+.image-gallery{
+  width:700px;
+  
+}
+
+div.img {
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid gray;
+    height: 110px;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 1px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid gray;
+}
+
+div.desc {
+  text-align: left;
+  font-weight: normal;
+  width: 120px;
+  margin: 1px;
+  font-size: 12px;
+}
